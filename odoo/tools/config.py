@@ -610,4 +610,4 @@ class configmanager(object):
     def filestore(self, dbname):
         return os.path.join(self['data_dir'], 'filestore', dbname)
 
-config = configmanager()
+config = configmanager('odoo.conf')
